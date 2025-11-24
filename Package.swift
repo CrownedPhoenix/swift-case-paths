@@ -75,7 +75,6 @@ if ProcessInfo.processInfo.environment["OMIT_MACRO_TESTS"] == nil {
       name: "CasePathsMacrosTests",
       dependencies: [
         "CasePathsMacros",
-        .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
         .product(
           name: "MacroTesting",
           package: "swift-macro-testing"
