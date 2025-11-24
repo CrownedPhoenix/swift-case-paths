@@ -1,0 +1,7 @@
+services:
+  reproducer:
+    image: swift:6.2
+    volumes:
+      - .:/root/
+    working_dir: /root
+    command: swift build --build-tests
